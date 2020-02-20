@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"> 
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="jquery-3.4.1.js">
+        <link href="bootstrap.css">
+    </head>
+    <body>
+      <div id="menu">
+        <div id="Home" ><a href="index.html" >Home</a></div>
+        <div id="Services" ><a href="Services.html" >Services</a></div>        
+        <div id="Contacts" ><a href="contacts.html" >Contacts & Feedback</a></div>
+    </div>
+    <div class="Form">
+
+    <form action="action_page.php">
+
+             <div class="row">
+                 <div class="col-25">
+                     <label for="fname">Your First Name</label>
+                </div>
+                  <div class="col-75">
+                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+          </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Your Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Your Country</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Write Your Message Here</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+                    <script
+                        src="https://code.jquery.com/jquery-3.4.1.js"
+                        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+                        crossorigin="anonymous">
+                    </script>
+    
+     <footer>
+        <p>facebook</p>
+<img src="https://bit.ly/2V5xZeu" img="jpg" width="50px" height="50px">
+        <p>tweeter</p>
+<img src="https://bit.ly/32bCnKw" img="jpg" width="50px" height="50px">
+</footer>
+</body>
+</html>
